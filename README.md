@@ -54,25 +54,25 @@
 ### Запуск:
 Стандартный:
 ```sh
-.program ./../data/input/входной_файл.txt ./../data/output/выходной_файл.txt
+./program ./../data/input/входной_файл.txt ./../data/output/выходной_файл.txt
 ```
 > **Важно:** пример ниже указандля того случая, когда вы находитесь в папке с исполняемым файлом!
 Предполагается, что при стандартном запуске входный файл доступен и заполнен данными.
 
 Справка (-h):
 ```sh
-.program -h
+./program -h
 ```
 
 Рандомная генерация (-r):
 ```sh
-.program -r input_file.txt output_file.txt
+./program -r input_file.txt output_file.txt
 ```
 > **Важно:** в input_file.txt запишется результат рандомной генерации.
 
 Добавить консоль в потоки вывода (-s):
 ```sh
-.program -s -r input_file.txt output_file.txt
+./program -s -r input_file.txt output_file.txt
 ```
 > **Информация:** Используйте любой из режимов запуска, но **первым** атрибутом укажите -s.
 ---

@@ -1,0 +1,3 @@
+/home/roman/Desktop/program/CMakeFiles/rebuild_cache.dir
+/home/roman/Desktop/program/CMakeFiles/edit_cache.dir
+/home/roman/Desktop/program/CMakeFiles/program.dir
