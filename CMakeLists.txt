@@ -13,7 +13,7 @@ set(HEADER_FILES
 
 set(SOURCE_FILES
         utils/utils.cpp
-		container/container.cpp models/flower.cpp models/tree.cpp models/shrub.cpp models/plant.cpp algorithms/algorithms.cpp)
+		container/container.cpp models/plant.cpp algorithms/algorithms.cpp)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${BUILD_DIR}/bin")
 set(BINARY_DIR "${CMAKE_BINARY_DIR}")
