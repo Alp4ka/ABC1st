@@ -26,26 +26,11 @@ CMakeFiles/program.dir/main.cpp.o: \
  models/shrub.h \
  models/tree.h \
  utils/utils.h
-CMakeFiles/program.dir/models/flower.cpp.o: \
- models/flower.cpp \
- models/flower.h
 CMakeFiles/program.dir/models/plant.cpp.o: \
  models/flower.h \
  models/plant.cpp \
  models/plant.h \
  models/shrub.h \
- models/tree.h
-CMakeFiles/program.dir/models/shrub.cpp.o: \
- models/flower.h \
- models/plant.h \
- models/shrub.cpp \
- models/shrub.h \
- models/tree.h
-CMakeFiles/program.dir/models/tree.cpp.o: \
- models/flower.h \
- models/plant.h \
- models/shrub.h \
- models/tree.cpp \
  models/tree.h
 CMakeFiles/program.dir/utils/utils.cpp.o: \
  models/flower.h \

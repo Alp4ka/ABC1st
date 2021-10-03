@@ -57,10 +57,10 @@ RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roman/Desktop/program
+CMAKE_SOURCE_DIR = /home/roman/Desktop/ABC1st
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roman/Desktop/program
+CMAKE_BINARY_DIR = /home/roman/Desktop/ABC1st
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/clion/164/bin/cmake/linux/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/164/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roman/Desktop/program/CMakeFiles /home/roman/Desktop/program//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roman/Desktop/ABC1st/CMakeFiles /home/roman/Desktop/ABC1st//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roman/Desktop/program/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roman/Desktop/ABC1st/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,30 +201,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-models/flower.o: models/flower.cpp.o
-.PHONY : models/flower.o
-
-# target to build an object file
-models/flower.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/flower.cpp.o
-.PHONY : models/flower.cpp.o
-
-models/flower.i: models/flower.cpp.i
-.PHONY : models/flower.i
-
-# target to preprocess a source file
-models/flower.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/flower.cpp.i
-.PHONY : models/flower.cpp.i
-
-models/flower.s: models/flower.cpp.s
-.PHONY : models/flower.s
-
-# target to generate assembly for a file
-models/flower.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/flower.cpp.s
-.PHONY : models/flower.cpp.s
-
 models/plant.o: models/plant.cpp.o
 .PHONY : models/plant.o
 
@@ -248,54 +224,6 @@ models/plant.s: models/plant.cpp.s
 models/plant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/plant.cpp.s
 .PHONY : models/plant.cpp.s
-
-models/shrub.o: models/shrub.cpp.o
-.PHONY : models/shrub.o
-
-# target to build an object file
-models/shrub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/shrub.cpp.o
-.PHONY : models/shrub.cpp.o
-
-models/shrub.i: models/shrub.cpp.i
-.PHONY : models/shrub.i
-
-# target to preprocess a source file
-models/shrub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/shrub.cpp.i
-.PHONY : models/shrub.cpp.i
-
-models/shrub.s: models/shrub.cpp.s
-.PHONY : models/shrub.s
-
-# target to generate assembly for a file
-models/shrub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/shrub.cpp.s
-.PHONY : models/shrub.cpp.s
-
-models/tree.o: models/tree.cpp.o
-.PHONY : models/tree.o
-
-# target to build an object file
-models/tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/tree.cpp.o
-.PHONY : models/tree.cpp.o
-
-models/tree.i: models/tree.cpp.i
-.PHONY : models/tree.i
-
-# target to preprocess a source file
-models/tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/tree.cpp.i
-.PHONY : models/tree.cpp.i
-
-models/tree.s: models/tree.cpp.s
-.PHONY : models/tree.s
-
-# target to generate assembly for a file
-models/tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/models/tree.cpp.s
-.PHONY : models/tree.cpp.s
 
 utils/utils.o: utils/utils.cpp.o
 .PHONY : utils/utils.o
@@ -339,18 +267,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... models/flower.o"
-	@echo "... models/flower.i"
-	@echo "... models/flower.s"
 	@echo "... models/plant.o"
 	@echo "... models/plant.i"
 	@echo "... models/plant.s"
-	@echo "... models/shrub.o"
-	@echo "... models/shrub.i"
-	@echo "... models/shrub.s"
-	@echo "... models/tree.o"
-	@echo "... models/tree.i"
-	@echo "... models/tree.s"
 	@echo "... utils/utils.o"
 	@echo "... utils/utils.i"
 	@echo "... utils/utils.s"

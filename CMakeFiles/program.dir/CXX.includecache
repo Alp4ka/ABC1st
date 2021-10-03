@@ -6,19 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/roman/Desktop/program/algorithms/algorithms.h
-./../container/container.h
-/home/roman/Desktop/program/container/container.h
-
-/home/roman/Desktop/program/container/container.h
+/home/roman/Desktop/ABC1st/algorithms/algorithms.cpp
+cstdlib
+-
+algorithms.h
+/home/roman/Desktop/ABC1st/algorithms/algorithms.h
 ./../models/plant.h
-/home/roman/Desktop/program/models/plant.h
+/home/roman/Desktop/ABC1st/models/plant.h
+./../utils/utils.h
+/home/roman/Desktop/ABC1st/utils/utils.h
 
-/home/roman/Desktop/program/main.cpp
+/home/roman/Desktop/ABC1st/algorithms/algorithms.h
+./../container/container.h
+/home/roman/Desktop/ABC1st/container/container.h
+
+/home/roman/Desktop/ABC1st/container/container.cpp
+cstdlib
+-
+container.h
+/home/roman/Desktop/ABC1st/container/container.h
+
+/home/roman/Desktop/ABC1st/container/container.h
+./../models/plant.h
+/home/roman/Desktop/ABC1st/models/plant.h
+
+/home/roman/Desktop/ABC1st/main.cpp
 stdio.h
 -
 utils/utils.h
-/home/roman/Desktop/program/utils/utils.h
+/home/roman/Desktop/ABC1st/utils/utils.h
 cstring
 -
 time.h
@@ -26,35 +42,49 @@ time.h
 stdlib.h
 -
 models/plant.h
-/home/roman/Desktop/program/models/plant.h
+/home/roman/Desktop/ABC1st/models/plant.h
 container/container.h
-/home/roman/Desktop/program/container/container.h
+/home/roman/Desktop/ABC1st/container/container.h
 models/flower.h
-/home/roman/Desktop/program/models/flower.h
+/home/roman/Desktop/ABC1st/models/flower.h
 models/tree.h
-/home/roman/Desktop/program/models/tree.h
+/home/roman/Desktop/ABC1st/models/tree.h
 models/shrub.h
-/home/roman/Desktop/program/models/shrub.h
+/home/roman/Desktop/ABC1st/models/shrub.h
 algorithms/algorithms.h
-/home/roman/Desktop/program/algorithms/algorithms.h
+/home/roman/Desktop/ABC1st/algorithms/algorithms.h
 
-/home/roman/Desktop/program/models/flower.h
+/home/roman/Desktop/ABC1st/models/flower.h
 
-/home/roman/Desktop/program/models/plant.h
+/home/roman/Desktop/ABC1st/models/plant.cpp
+cstdlib
+-
+string.h
+-
+plant.h
+/home/roman/Desktop/ABC1st/models/plant.h
+
+/home/roman/Desktop/ABC1st/models/plant.h
 stdio.h
 -
 flower.h
-/home/roman/Desktop/program/models/flower.h
+/home/roman/Desktop/ABC1st/models/flower.h
 shrub.h
-/home/roman/Desktop/program/models/shrub.h
+/home/roman/Desktop/ABC1st/models/shrub.h
 tree.h
-/home/roman/Desktop/program/models/tree.h
+/home/roman/Desktop/ABC1st/models/tree.h
 
-/home/roman/Desktop/program/models/shrub.h
+/home/roman/Desktop/ABC1st/models/shrub.h
 
-/home/roman/Desktop/program/models/tree.h
+/home/roman/Desktop/ABC1st/models/tree.h
 
-/home/roman/Desktop/program/utils/utils.h
+/home/roman/Desktop/ABC1st/utils/utils.cpp
+stdlib.h
+-
+utils.h
+/home/roman/Desktop/ABC1st/utils/utils.h
+
+/home/roman/Desktop/ABC1st/utils/utils.h
 ./../models/plant.h
-/home/roman/Desktop/program/models/plant.h
+/home/roman/Desktop/ABC1st/models/plant.h
 

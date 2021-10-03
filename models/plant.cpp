@@ -49,7 +49,7 @@ Plant *FReadData(FILE *input_file) {
         }
         case Plant::TREE: {
             int age;
-            int check = fscanf(input_file, "%s %lld\n", name, &age);
+            int check = fscanf(input_file, "%s %d\n", name, &age);
             if (check != 2) {
                 return NULL;
             }

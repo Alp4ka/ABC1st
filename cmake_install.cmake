@@ -1,4 +1,4 @@
-# Install script for directory: /home/roman/Desktop/program
+# Install script for directory: /home/roman/Desktop/ABC1st
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roman/Desktop/program/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/roman/Desktop/ABC1st/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
