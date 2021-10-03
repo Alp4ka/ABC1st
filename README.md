@@ -63,13 +63,13 @@
 
 Рандомная генерация (-r):
 ```sh
-./program -r input_file.txt output_file.txt
+./program -r 34 input_file.txt output_file.txt
 ```
-> **Важно:** в input_file.txt запишется результат рандомной генерации.
+> **Важно:** в input_file.txt запишется результат рандомной генерации 34 элементов.
 
 Добавить консоль в потоки вывода (-s):
 ```sh
-./program -s -r input_file.txt output_file.txt
+./program -s -r 47 input_file.txt output_file.txt
 ```
 > **Информация:** Используйте любой из режимов запуска, но **первым** атрибутом укажите -s.
 ---
